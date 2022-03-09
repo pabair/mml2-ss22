@@ -7,7 +7,7 @@ The recommended way to setup your development environment is to use Anaconda:
 
 `conda create --name dmml2 python=3.8`
 
-3. Activate this environment and install OpenAi Gym inside the new env with pip3:
+3. Activate this environment:
 
 `conda activate dmml2`
 
