@@ -13,4 +13,4 @@ The recommended way to setup your development environment is to use Anaconda:
 
 4. Install the following packages: numpy, pandas, matplotlib, scikit-learn.
 
-`conda install numpy pandas matplotlib scikit-learn`
+`conda install numpy pandas matplotlib scikit-learn jupyter`
