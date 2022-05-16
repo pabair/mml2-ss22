@@ -1,6 +1,6 @@
 # Lab 9
 
-In this lab we play around with the [FrozenLake environment](https://gym.openai.com/envs/FrozenLake-v0/) and try to learn a good policy from experience.
+In this lab we play around with the [FrozenLake environment](https://www.gymlibrary.ml/environments/toy_text/frozen_lake/) and try to learn a good policy from experience.
 Take a look at the file `9_FrozenLake_Random.py` to have a starting point for the following tasks:
 
 ### Task 1:
