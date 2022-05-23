@@ -11,7 +11,7 @@ This is repeated for 100 iterations.
 - After every episode, calculate the Q-values with Monte Carlo estimation:
     - there is no discount on the reward, i.e. the discount factor is 1.
     - before the first episode initialize all Q-values to zero.
-    - use the average mean method to update the Q-values, i.e.:
+    - use the average mean method to update the Q-values after every episode:
     `Q(s,a) =  Q(s,a) + 1/N(s,a) *  (G-Q(s,a))`
 
 
