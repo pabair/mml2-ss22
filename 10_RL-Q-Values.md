@@ -1,7 +1,7 @@
 # Lab 10: Q-values 
 
 In this lab, we continue working on the [FrozenLake environment](https://www.gymlibrary.ml/environments/toy_text/frozen_lake/)
-and implement the concept of Q-value estimation with the Monte Carlo method.
+and implement the concept of Q-value estimation.
 
 
 ### Task 1:
@@ -12,9 +12,8 @@ This is repeated for 100 iterations.
     - there is no discount on the reward, i.e. the discount factor is 1.
     - before the first episode initialize all Q-values to zero.
     - use the average mean method to update the Q-values, i.e.:
-```
-Q(s,a) =  Q(s,a) + 1/N(s,a) *  (G-Q(s,a))
-```
+    $Q(s,a) =  Q(s,a) + 1/N(s,a) *  (G-Q(s,a))$
+
 
 - After every successful episode, print out the current Q-values.
 
