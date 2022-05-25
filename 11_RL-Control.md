@@ -9,7 +9,7 @@ In the last lab we calculated Q-values using MC prediction. We will now extend t
 
 - Take the code from the file [11_FrozenLake_Control.py](11_FrozenLake_Control.py) as starting point.
 This code uses a random policy and plots the collected rewards over time.
-- Integrate the code for calculating Q-values after every episode [from the last lab](solutions/S10_FrozenLake_Prediction_Task1.py).
+- Integrate the code for calculating Q-values after every episode [from the last lab](solutions/10_FrozenLake_Prediction_Task1-Solution.py).
 - Change the `play_episode` method such that it uses an epsilon-greedy policy based on the current Q-values.
 - Try out the following epsilons: `[0.01, 0.1, 0.5, 1.0]` and show all results for all epsilons together in one plot (i.e. every epsilon one curve in the plot).
 
