@@ -1,4 +1,4 @@
-# Lab 4
+# Lab 11
 
 In this lab we will continue our work on the [FrozenLake environment](https://gym.openai.com/envs/FrozenLake-v1/)
 by introducing MC-Control and Q-learning.
